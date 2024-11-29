@@ -23,3 +23,6 @@ C:\Users\jbelb\Desktop\AspNetCoreIntro\obj\Debug\net8.0\refint\AspNetCoreIntro.d
 C:\Users\jbelb\Desktop\AspNetCoreIntro\obj\Debug\net8.0\AspNetCoreIntro.pdb
 C:\Users\jbelb\Desktop\AspNetCoreIntro\obj\Debug\net8.0\AspNetCoreIntro.genruntimeconfig.cache
 C:\Users\jbelb\Desktop\AspNetCoreIntro\obj\Debug\net8.0\ref\AspNetCoreIntro.dll
+C:\Users\jbelb\Desktop\AspNetCoreIntro\obj\Debug\net8.0\AspNetCoreIntro.sourcelink.json
+C:\Users\jbelb\Desktop\AspNetCoreIntro\obj\Debug\net8.0\AspNetCoreIntro.RazorAssemblyInfo.cache
+C:\Users\jbelb\Desktop\AspNetCoreIntro\obj\Debug\net8.0\AspNetCoreIntro.RazorAssemblyInfo.cs

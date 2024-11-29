@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication.BearerToken;
+﻿
 using Microsoft.AspNetCore.Mvc;
 namespace AspNetCoreIntro.Controllers
 
@@ -11,15 +11,22 @@ namespace AspNetCoreIntro.Controllers
 
         public IActionResult Index()
         {
-            string listToPrint = string.Join(" \n", users);
-
-            return Content("<< Elenco Studenti >> \n" +listToPrint);    
+            return View(users);
         }
 
         public IActionResult Detail(int id)
         {
-            string message = $"Sono Detail E Ho Ricevuto id :  {id}";
-            message += $"\nL'utente richiesta è {users[id]}";
+            string message = message = $"Sono Detail E Ho Ricevuto id {id}";            
+
+            if (id > 0 && id < users.Count)
+            { 
+                    message += $"\nL'utente richiesta è {users[id]}";
+            }
+            else
+            {
+                message += "Utente non trovato";
+            }
+
             return Content(message);
 
         }
