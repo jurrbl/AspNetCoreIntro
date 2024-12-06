@@ -1,4 +1,7 @@
-﻿namespace AspNetCoreIntro.Models
+﻿
+
+
+namespace AspNetCoreIntro.Models
 {
     public class UserModel(int id, string name, string surname, DateTime dob, string pob)
     {
