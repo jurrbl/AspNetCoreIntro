@@ -1,40 +1,48 @@
-﻿
-using AspNetCoreIntro.Models;
+﻿using AspNetCoreIntro.Models;
+using AspNetCoreIntro.Services;
 using Microsoft.AspNetCore.Mvc;
-namespace AspNetCoreIntro.Controllers
 
+namespace AspNetCoreIntro.Controllers
 {
     public class UsersController : Controller
     {
+        private readonly IUsersService _usersService;
 
-        private List<UserModel> users = new List<UserModel>()
-        {   new UserModel(1, "Paperino", "Paolino", new DateTime(1934,7,5), "San Francisco"),
-            new UserModel(2, "Giuseppe", "Garibaldi", new DateTime(1934,7,5), "Fossano"),
-            new UserModel(3, "Micheal", "Jordan", new DateTime(1934,7,5), "Savigliano"),
-            new UserModel(4, "Kobe", "Bryant", new DateTime(1934,7,5), "Cuneo")
+        // Public constructor for DI
+        public UsersController(IUsersService usersService)
+        {
+            _usersService = usersService;
+        }
 
-        };
         public IActionResult Index()
         {
-            return View(users);
+            return View(_usersService.GetUsers());
         }
 
         public IActionResult Detail(int id)
         {
-            string message = message = $"Sono Detail E Ho Ricevuto id {id}";            
+            //string message = $"Sono Detail E Ho Ricevuto id {id}";
+            //UserModel? user = _usersService.GetUsersById(id);
 
-            if (id > 0 && id < users.Count)
-            { 
-                    message += $"\nL'utente richiesta è {users[id]}";
-            }
-            else
-            {
-                message += "Utente non trovato";
-            }
+            //if (user != null)
+            //{
+            //    message += $"\nL'utente richiesto è {user.Name}";
+            //}
+            //else
+            //{
+            //    message += "\nUtente non trovato";
+            //}
 
-            return Content(message);
+            //return Content(message);
 
+            return View(_usersService.GetUsersById(id));
         }
 
+
+        public IActionResult DeleteUser(int id)
+        {
+            int deleted = _usersService.DeleteUserById(id);
+            return Content($"Utente Eliminato : {deleted}");
+        }
     }
 }

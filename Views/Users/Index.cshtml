@@ -8,6 +8,9 @@
 
 <div class="text-center">
     <h1 class="display-4">Users</h1>
+    <a asp-controller="Users" asp-action="NewUser" class="text-decoration-none">
+        <button type="button" class="btn btn-primary mb-3">Aggiungi Utente</button>
+    </a>
     <div class="card">
         <div class="card-content">
             <div class="table-responsive">
@@ -28,13 +31,19 @@
                                 <td>@item.Name</td>
                                 <td>@item.Surname</td>
                                 <td>@item.DateOfBirth.ToString("dd/mm/yy")</td>
-                                <td>@item.Pob</td>
+                                <td>@item.Pob</td>  
                                 <td>
-                                    <a>
+                                    <a asp-controller="Users" asp-action="Detail" asp-route-id="@item.Id" class="text-decoration-none">
                                         <button type="button" class="btn btn-primary">
                                             Details
                                         </button>
                                     </a>
+                                    <a asp-controller="Users" asp-action="DeleteUser" asp-route-id="@item.Id" class="text-decoration-none">
+                                        <button type="button" class="btn btn-danger">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </a>
+
                                 </td>
                             </tr>
                         }
