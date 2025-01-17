@@ -7,6 +7,9 @@ namespace AspNetCoreIntro.Services
         IEnumerable<UserModel> GetUsers();
 
         UserModel? GetUsersById(int id);
+        UserModel? AddUser(UserModel user);
+
+        int DeleteUsersById(int id);
 
     }
 }

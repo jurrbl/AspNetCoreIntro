@@ -21,9 +21,17 @@ namespace AspNetCoreIntro.Services
             return users.SingleOrDefault(u => u.Id == id);
         }
 
-        public int DeleteUserById(int id)
+        public int DeleteUsersById(int id)
         {
             return users.RemoveAll(u => u.Id == id);
+        }
+
+        public UserModel AddUser(UserModel user)
+        {
+            user.Id = users.Max(u => u.Id) + 1;
+            users.Add(user);
+
+            return user;
         }
     }
 }
