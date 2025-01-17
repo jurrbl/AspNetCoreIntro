@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "eWqAK1clD0bbKi04BaW6bmMyxovrfky2L37cDLEzvlk=",
+  "Hash": "25261j4utyEzHApEa/LviKSQJgVmAOMu2qXxFfPgwPY=",
   "Source": "AspNetCoreIntro",
   "BasePath": "_content/AspNetCoreIntro",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "AspNetCoreIntro\\wwwroot",
+      "Source": "AspNetCoreIntro",
+      "ContentRoot": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIntro",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\img\\logo.png",
+      "SourceId": "AspNetCoreIntro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIntro",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\style.css",
+      "SourceId": "AspNetCoreIntro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIntro",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
 }

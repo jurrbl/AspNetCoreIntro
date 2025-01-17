@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AspNetCoreIntro.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AspNetCoreIntro.props",
+      "PackagePath": "build\\AspNetCoreIntro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AspNetCoreIntro.props",
+      "PackagePath": "buildMultiTargeting\\AspNetCoreIntro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AspNetCoreIntro.props",
+      "PackagePath": "buildTransitive\\AspNetCoreIntro.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

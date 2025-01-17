@@ -1,12 +1,224 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\views\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:views\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\views\\users\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:views\\users\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\views\\home\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:views\\home\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|c:\\users\\jbelb\\desktop\\aspnetcoreintro\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D33EB6-7EB0-4088-BF3F-51C927B7AEB2}|AspNetCoreIntro.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T10:43:07.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Users\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Users\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Users\\Index.cshtml.cs",
+              "RelativeToolTip": "Views\\Users\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:43:03.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T10:42:23.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Users\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Users\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Users\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T10:42:20.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "Views\\Courses\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T10:41:53.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "Services\\UsersService.cs",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Services\\UsersService.cs",
+              "RelativeToolTip": "Services\\UsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:41:48.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Home\\index.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Home\\index.cshtml.cs",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Home\\index.cshtml.cs",
+              "RelativeToolTip": "Views\\Home\\index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:41:47.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Home\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\index.cshtml",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Home\\index.cshtml",
+              "RelativeToolTip": "Views\\Home\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T10:41:40.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:37:12.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T10:34:13.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\style.css",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\style.css",
+              "RelativeToolTip": "wwwroot\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-17T10:32:59.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:29:06.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
