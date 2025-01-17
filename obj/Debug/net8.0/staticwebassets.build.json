@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "25261j4utyEzHApEa/LviKSQJgVmAOMu2qXxFfPgwPY=",
+  "Hash": "0+o97IGtXqprd5gdjssfzN6BnPdMZlZ1WwRGNNO6SJ4=",
   "Source": "AspNetCoreIntro",
   "BasePath": "_content/AspNetCoreIntro",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\Api\\TestApiController.cs",
+      "SourceId": "AspNetCoreIntro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIntro",
+      "RelativePath": "Api/TestApiController.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Api\\TestApiController.cs"
+    },
     {
       "Identity": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\img\\logo.png",
       "SourceId": "AspNetCoreIntro",
@@ -53,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\UsersApiController\\UsersApiController.cs",
+      "SourceId": "AspNetCoreIntro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIntro",
+      "RelativePath": "UsersApiController/UsersApiController.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UsersApiController\\UsersApiController.cs"
     }
   ]
 }

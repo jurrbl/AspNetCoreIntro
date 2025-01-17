@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "ContainingType": "AspNetCoreIntro.wwwroot.Api.TestApiController",
+    "Method": "Get",
+    "RelativePath": "api/TestApi",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

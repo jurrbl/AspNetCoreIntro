@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="wwwroot\Api\TestApiController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
 

@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\Api\\TestApiController.cs",
+      "PackagePath": "staticwebassets\\Api\\TestApiController.cs"
+    },
+    {
+      "Id": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\UsersApiController\\UsersApiController.cs",
+      "PackagePath": "staticwebassets\\UsersApiController\\UsersApiController.cs"
+    },
+    {
       "Id": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
