@@ -2,8 +2,8 @@ using AspNetCoreIntro.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-builder.Services.AddSingleton<IUsersService, UsersService>();
+//builder.Services.AddSingleton<IUsersService, UsersInMemoryService>();
+builder.Services.AddSingleton<IUsersService, UsersSqlServerService>();
 //aggiungo supporto al controller
 
 builder.Services.AddControllersWithViews();

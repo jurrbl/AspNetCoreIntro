@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets\\Api\\TestApiController.cs"
     },
     {
-      "Id": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\UsersApiController\\UsersApiController.cs",
-      "PackagePath": "staticwebassets\\UsersApiController\\UsersApiController.cs"
+      "Id": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\Api\\UsersApiController.cs",
+      "PackagePath": "staticwebassets\\Api\\UsersApiController.cs"
     },
     {
       "Id": "C:\\Users\\jbelb\\Desktop\\AspNetCoreIntro\\wwwroot\\img\\logo.png",
